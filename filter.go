@@ -96,7 +96,7 @@ func DefaultFilter() Filter {
 		Room: RoomFilter{
 			AccountData:  DefaultRoomEventFilter(),
 			Ephemeral:    DefaultRoomEventFilter(),
-			IncludeLeave: false,
+			IncludeLeave: true,
 			NotRooms:     nil,
 			Rooms:        nil,
 			State:        DefaultStateFilter(),
