@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/matrix-org/gomatrixserverlib"
+	"github.com/davidspenler/gomatrixserverlib"
 	"golang.org/x/crypto/ed25519"
 )
 
